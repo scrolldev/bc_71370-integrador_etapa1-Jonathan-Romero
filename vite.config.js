@@ -13,7 +13,7 @@ export default {
     rollupOptions: {
       input: {
         alta: resolve('views/alta.html'),
-        carrito: resolve('views/alta.html'),
+        carrito: resolve('views/carrito.html'),
         contacto: resolve('views/contacto.html'),
         nosotros: resolve('views/nosotros.html'),
         inicio: resolve('index.html'),
