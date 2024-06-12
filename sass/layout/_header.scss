@@ -70,19 +70,19 @@
   
 
   &__logo-container {
-    
-    
+    display: flex;
+    align-items: center;
   }
 
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
+  &__logo-container h1 {
+    font-size: 3vw;
+    text-align: center;
+    padding: 20px;
   }
 
   &__form-conteiner {
-    padding: 1rem;
-    background-color: gold;
+    padding: 2rem;
+    //background-color: gold;
     display: flex;
     flex-basis: 100%;
     justify-content: center;
@@ -93,18 +93,32 @@
   }
 
   &__form-search {
-    background-color: deeppink;
+    //background-color: deeppink;
     width: 70%;
+    border: 1px solid #A4A2A4;
+    border-radius: 5px;
   }
 
   &__form-submit {
-    background-color: darkolivegreen;
-    color: white;
+    //background-color: darkolivegreen;
+    color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 0.1rem;
+    font-size: larger;
+
   }
 
   &__carrito-container {
-    flex: 0 0 3rem;
-    background-color: goldenrod;
+    display: flex;
+    flex: 0 0 5rem;
+    align-items: center;
+  }
+
+  &__carrito-container i {
+   font-size: 2vw;
+   padding: 20px;
+   color: #A4A2A4;
   }
 
 }
@@ -113,24 +127,27 @@
 
 .menu-toogle {
   display: none;
-  background-color: red;
   flex: 0 0 3rem;
   position: relative;
   cursor: pointer;
+  height: 50px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  
 
   &__label{
     display: block;
-    background-color: black;
+    //background-color: black;
     height: 100%;
+    
   }
-
 
   &__top-bread,
   &__meat,
   &__bottom-bread{
     display: block;
     background-color: #333;
-    height: .2rem;
+    height: 0.2rem;
     position: absolute;
     left: .5rem;
     right: .5rem;
@@ -151,12 +168,10 @@
 
 
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
     & {
       display: block;
+    
     }
   }
 }
-
-
-
