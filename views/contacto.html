@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Proyecto Integrador - Contacto</title>
 </head>
 <body>
@@ -12,30 +13,32 @@
     <nav class="nav-bar">
       <ul class="nav-bar__nav-list">
         <li class="nav-bar__nav-item">
-          <a href="#" class="nav-bar__nav-link">Inicio</a>
+          <a href="/index.html" class="nav-bar__nav-link">Inicio</a>
         </li>
         <li class="nav-bar__nav-item">
           <a href="#" class="nav-bar__nav-link">Alta</a>
         </li>
         <li class="nav-bar__nav-item">
-          <a href="#" class="nav-bar__nav-link">Nosotros</a>
+          <a href="/views/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
         </li>
         <li class="nav-bar__nav-item">
-          <a href="#" class="nav-bar__nav-link">Contacto</a>
+          <a href="/views/contacto.html" class="nav-bar__nav-link">Contacto</a>
         </li>
       </ul>  
     </nav> <!-- .nav-bar -->
 
     <div class="search-bar">
       <div class="search-bar__logo-container">
-        <h1>Scroll</h1>
+        <h1>ScrollTech</h1>
       </div>
       <form action="#" class="search-bar__form-conteiner">
-        <label for="busqueda" class="search-bar__form-label">Buscar</label>
+        <label for="busqueda" class="search-bar__form-label"></label>
         <input type="search" class="search-bar__form-search" id="busqueda">
         <input type="submit" class="search-bar__form-submit" value="Buscar">
       </form>
-      <div class="search-bar__carrito-container">C</div>
+      <div class="search-bar__carrito-container">
+        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+      </div>
       <div class="menu-toogle">
         <label for="menu" class="menu-toogle__label">
             <span class="menu-toogle__top-bread"></span>
@@ -47,5 +50,41 @@
 
   </header> <!-- main-header -->
 
+  <main>
+    <section class="container">
+      <h1>Contactanos</h1>
+      <form class="form-responsive">
+        <fielset class="fieldset-cambio">
+          
+          <div class="input-container">
+            <label for="nombre">Nombre:*</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="input-container">
+            <label for="apellido">Apellido:*</label>
+            <input type="text" id="apellido" name="apellido">
+          </div>
+          <div class="input-container">
+            <label for="email">E-Mail:*</label>
+            <input type="text" id="email" name="email">
+          </div>
+        </fieldset>
+
+        <div class="input-container">
+          <label for="lbl-mensaje">Mensaje...</label>
+          <textarea name="mensaje" id="lbl-mensaje" cols="15" rows="6"></textarea>
+        </div>
+
+        <div class="button-container">
+          <button class="button">Enviar</button>
+        </div>
+
+      </form>
+
+    </section>
+  
+  </main>
+
+  <script type="module" src="/main.js"></script>
 </body>
 </html>

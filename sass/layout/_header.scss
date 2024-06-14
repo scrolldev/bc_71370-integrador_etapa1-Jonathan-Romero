@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
     & {
       flex-direction: column-reverse;
     }
@@ -34,7 +34,7 @@
     list-style: none;
     justify-content: center;
     
-    @media (max-width: 768px) {
+    @media (max-width: 576px) {
       & {
         flex-direction: column;
       }
@@ -53,7 +53,7 @@
     text-decoration: none;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
     & {
       display: none;
     }
@@ -67,8 +67,6 @@
   display: flex;
   justify-content: space-around;
   
-  
-
   &__logo-container {
     display: flex;
     align-items: center;
@@ -81,7 +79,7 @@
   }
 
   &__form-conteiner {
-    padding: 2rem;
+    padding: 2rem 0 2rem 0;
     //background-color: gold;
     display: flex;
     flex-basis: 100%;
@@ -100,24 +98,22 @@
   }
 
   &__form-submit {
-    //background-color: darkolivegreen;
-    color: black;
     border-radius: 5px;
     margin-left: 5px;
-    padding: 0.1rem;
-    font-size: larger;
+    //padding: 0.1rem;
+    //font-size: larger;
 
   }
 
   &__carrito-container {
     display: flex;
-    flex: 0 0 5rem;
+    //flex: 0 0 5rem;
     align-items: center;
   }
 
   &__carrito-container i {
    font-size: 2vw;
-   padding: 20px;
+   padding: 2rem 0 2rem 0;
    color: #A4A2A4;
   }
 
@@ -130,10 +126,7 @@
   flex: 0 0 3rem;
   position: relative;
   cursor: pointer;
-  height: 50px;
-  margin-top: 1rem;
-  margin-right: 1rem;
-  
+  margin: 1.2rem;
 
   &__label{
     display: block;
@@ -171,7 +164,6 @@
   @media (max-width: 576px) {
     & {
       display: block;
-    
     }
   }
 }
