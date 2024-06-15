@@ -1,0 +1,12 @@
+$colores: (
+  "negro" : black,
+  "blanco" : white
+);
+  
+$fuentes:  (
+  "fuentes" : "Helvetica"
+)
+
+.asa {
+  color: map-get($map: $colores, $key: "negro")
+}
