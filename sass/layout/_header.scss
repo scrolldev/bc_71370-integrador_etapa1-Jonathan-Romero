@@ -99,8 +99,8 @@
 
   &__form-submit {
     border-radius: 5px;
-    margin-left: 5px;
-    //padding: 0.1rem;
+    margin-left: .5rem;
+    padding: .5rem;
     //font-size: larger;
 
   }
@@ -112,11 +112,17 @@
   }
 
   &__carrito-container i {
-   font-size: 2vw;
-   padding: 2rem 0 2rem 0;
+   font-size: 3vw;
+   //padding: 2rem 0 2rem 0;
+   padding-right: 2rem;
    color: #A4A2A4;
-  }
 
+   @media (max-width: 576px) {
+      & {
+        padding: 1rem;
+      }
+    }
+  }
 }
 
 /*MENU TOOGLE*/
@@ -158,8 +164,6 @@
   &__bottom-bread {
     bottom: .8rem;
   }
-
-
 
   @media (max-width: 576px) {
     & {
