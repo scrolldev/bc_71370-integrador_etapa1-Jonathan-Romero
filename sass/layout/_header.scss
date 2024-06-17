@@ -19,7 +19,7 @@
   }
 
   &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
-    background-color: yellow;
+    //background-color: yellow;
   }
 
 }
@@ -27,7 +27,7 @@
 /*NAVBAR*/
 
 .nav-bar {
-  background-color: mediumaquamarine;
+  //background-color: mediumaquamarine;
   
   &__nav-list {
     display: flex;
@@ -43,14 +43,17 @@
 
   &__nav-item {
     text-align: center;
-    background-color: pink;
+    background-color: white;
+    border-top: 1px solid black;
   }
 
   &__nav-link {
     display: block;
-    background-color: purple;
+    //background-color: purple;
     padding: 2rem 2rem;
     text-decoration: none;
+    color: black;
+    font-weight: bold;
   }
 
   @media (max-width: 576px) {
@@ -87,7 +90,7 @@
   }
 
   &__form-label {
-    background-color: greenyellow;
+    //background-color: greenyellow;
   }
 
   &__form-search {
@@ -170,4 +173,6 @@
       display: block;
     }
   }
+  
 }
+

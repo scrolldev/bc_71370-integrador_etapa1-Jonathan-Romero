@@ -1,0 +1,53 @@
+// _footer.scss
+
+.footer {
+  background-color: #f8f9fa; // Color de fondo del footer
+  padding: 20px; // Espaciado interno del footer
+  text-align: center; // Alineación de texto
+
+  &__section {
+    display: flex;
+    justify-content: space-around; // Distribuye el espacio entre los elementos hijos
+    flex-wrap: wrap; // Permite que los elementos se envuelvan en múltiples líneas si es necesario
+
+    @media (max-width: 768px) {
+      flex-direction: column; // En pantallas más pequeñas, los elementos se apilan verticalmente
+      align-items: center; // Centra los elementos horizontalmente
+
+      div {
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+  }
+
+  .footer-contacto, .footer-categorias {
+    h4 {
+      font-size: 1.2em; // Tamaño de fuente del encabezado
+      margin-bottom: 10px; // Espaciado inferior del encabezado
+    }
+
+    p, a {
+      margin: 5px 0; // Margen superior e inferior de los párrafos y enlaces
+      color: #212529; // Color de texto
+      text-decoration: none; // Quita el subrayado de los enlaces
+
+      &:hover {
+        color: #007bff; // Color de texto al pasar el mouse
+      }
+    }
+  }
+
+  .footer-categorias {
+    a {
+      display: block; // Cada enlace en su propia línea
+    }
+  }
+}
+
+
