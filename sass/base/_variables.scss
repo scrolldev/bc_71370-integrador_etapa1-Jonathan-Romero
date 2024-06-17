@@ -1,12 +1,12 @@
 $colores: (
-  "negro" : black,
-  "blanco" : white
+  "footer" : #ebe3e3,
+  "blanco" : white,
+  "primary-color" : #3498db,
+  "secondary-color" : #2ecc71,
 );
   
 $fuentes:  (
-  "fuentes" : "Helvetica"
+  "fuentes" : "Helvetica",
+  "font-family" : "Arial, sans-serif"
 )
 
-.asa {
-  color: map-get($map: $colores, $key: "negro")
-}

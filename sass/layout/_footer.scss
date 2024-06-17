@@ -1,7 +1,7 @@
 // _footer.scss
 
 .footer {
-  background-color: #f8f9fa; // Color de fondo del footer
+  background-color: map-get($map: $colores, $key: footer); // Color de fondo del footer
   padding: 20px; // Espaciado interno del footer
   text-align: center; // Alineación de texto
 

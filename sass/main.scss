@@ -1,9 +1,13 @@
 
 @import "base/typography";
 @import "base/resets";
+@import "base/variables";
+
 @import "components/cards";
+
 @import "layout/header";
 @import "layout/footer";
+
 @import "pages/index";
 @import "pages/contacto";
 @import "pages/nosotros";
