@@ -22,7 +22,7 @@
   &__logo {
     display: flex;
     align-items: center;
-    font-size: x-large;
+    font-size: 2rem;
     color: map-get($map: $colores, $key: "primary-color" );
   }
 
