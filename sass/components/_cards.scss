@@ -2,7 +2,6 @@
   width: 220px;
   max-width: 300px;
   height: 400px;
-  //background-color: orange;
   overflow: hidden;
   cursor: pointer;
 
@@ -10,9 +9,7 @@
 
   &__image-conteiner {
     height: 200px;
-    //background-color: blue;
     overflow: hidden;
-    //clip-path: polygon(0 0, 100% 0, 100% 200px, 0 180px);
     padding: 10px;
   }
 
@@ -20,7 +17,6 @@
   &:focus {
     transform: scale(1.03) skew(0);
     transform-origin: bottom;
-    //transform: scale(1.4) rotate(5deg);
   }
 
   &__image {
@@ -45,29 +41,9 @@
     transform-origin: center;
   }
 
-  /* &:nth-child(5n + 1) {
-    background-image: linear-gradient(to top, #aaafad 0%, #60efff 100%);
-  }
-
-  &:nth-child(5n + 2) {
-    background-image: linear-gradient(to top, #696eff 0%, #f8accf 100%);
-  }
-
-  &:nth-child(5n + 3) {
-    background-image: linear-gradient(to top, #ff16b6 0%, #34caff 100%);
-  }
-  &:nth-child(5n + 4) {
-    background-image: linear-gradient(to top, #ff930f 0%, #fff95b 100%);
-  }
-
-  &:nth-child(5n + 5) {
-    background-image: linear-gradient(to top, #ff0f7b 0%, #f89b29 100%);
-  } */
-
   &:hover &__image-conteiner,
   &:focus &__image-conteiner {
     clip-path: polygon(0 0, 100% 0, 100% 190px, 0 200px);
-    //cursor: pointer;
   }
 
   @media (max-width: 576px) {
@@ -83,12 +59,10 @@
 
     & &__image-conteiner {
       width: 100%;
-      //clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
     }
 
     &:hover &__image-conteiner,
     &:focus &__image-conteiner {
-      //width: 40%;
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
   

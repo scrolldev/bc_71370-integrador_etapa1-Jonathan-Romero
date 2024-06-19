@@ -1,18 +1,17 @@
-// _footer.scss
 
 .footer {
-  background-color: map-get($map: $colores, $key: footer); // Color de fondo del footer
-  padding: 20px; // Espaciado interno del footer
-  text-align: center; // Alineación de texto
-
+  background-color: map-get($map: $colores, $key: footer);
+  padding: 20px;
+  text-align: center;
+  
   &__section {
     display: flex;
-    justify-content: space-around; // Distribuye el espacio entre los elementos hijos
-    flex-wrap: wrap; // Permite que los elementos se envuelvan en múltiples líneas si es necesario
+    justify-content: space-around;
+    flex-wrap: wrap;
 
     @media (max-width: 768px) {
-      flex-direction: column; // En pantallas más pequeñas, los elementos se apilan verticalmente
-      align-items: center; // Centra los elementos horizontalmente
+      flex-direction: column;
+      align-items: center;
 
       div {
         padding-bottom: 20px;
@@ -29,29 +28,27 @@
 
   .footer-contacto, .footer-categorias {
     h4 {
-      font-size: 1.2em; // Tamaño de fuente del encabezado
-      margin-bottom: 10px; // Espaciado inferior del encabezado
+      font-size: 1.2em;
+      margin-bottom: 10px;
       color: map-get($map: $colores, $key: "primary-color" );
     }
 
     p, a {
-      margin: 5px 0; // Margen superior e inferior de los párrafos y enlaces
-      color: #212529; // Color de texto
-      text-decoration: none; // Quita el subrayado de los enlaces
+      margin: 5px 0;
+      color: #212529;
+      text-decoration: none;
 
       &:hover {
-        color: #007bff; // Color de texto al pasar el mouse
+        color: #007bff;
       }
     }
   }
 
   .footer-categorias {
     a {
-      display: block; // Cada enlace en su propia línea
+      display: block;
     }
   }
-
-
 }
 
 
