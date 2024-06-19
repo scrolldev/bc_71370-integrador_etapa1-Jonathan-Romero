@@ -113,6 +113,11 @@
     align-items: center;
   }
 
+  & a {
+    text-decoration: none;
+    color: map-get($map: $colores, $key: "primary-color");
+  }
+
   @media (min-width: 576px) {
     &__form-search {
       width: 100%;
