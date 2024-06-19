@@ -5,7 +5,6 @@
   flex-direction: column-reverse;
   background: map-get($map: $colores, $key: "header" );
 
-  
   @media (min-width: 576px) {
     & {
       flex-direction: column;
@@ -58,14 +57,11 @@
     }
   }
 
-
-
   @media (max-width: 576px) {
     & {
       display: none;
     }
   }
-
 }
 
 /*SEARCH BAR*/
@@ -185,6 +181,5 @@
       display: block;
     }
   }
-  
 }
 
