@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 2rem;
-  flex-wrap: wrap;
+  
 
   &__image {
     display: flex;
@@ -32,7 +32,13 @@
     margin-top: 15px;
   }
 
+  &__inverter {
+    
+  }
 
+  @media (max-width: 576px) {
+    flex-wrap: wrap;
+  }
 
 
 

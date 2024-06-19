@@ -3,7 +3,9 @@
 .main-header {
   display: flex;
   flex-direction: column-reverse;
+  background: map-get($map: $colores, $key: "header" );
 
+  
   @media (min-width: 576px) {
     & {
       flex-direction: column;
@@ -27,7 +29,6 @@
 /*NAVBAR*/
 
 .nav-bar {
-  //background-color: mediumaquamarine;
   
   &__nav-list {
     display: flex;
@@ -43,7 +44,6 @@
 
   &__nav-item {
     text-align: center;
-    background-color: white;
     border-top: 1px solid black;
   }
 

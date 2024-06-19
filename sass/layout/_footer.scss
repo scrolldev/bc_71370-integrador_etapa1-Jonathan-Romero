@@ -24,12 +24,14 @@
     display: flex;
     align-items: center;
     font-size: x-large;
+    color: map-get($map: $colores, $key: "primary-color" );
   }
 
   .footer-contacto, .footer-categorias {
     h4 {
       font-size: 1.2em; // Tamaño de fuente del encabezado
       margin-bottom: 10px; // Espaciado inferior del encabezado
+      color: map-get($map: $colores, $key: "primary-color" );
     }
 
     p, a {
@@ -48,6 +50,8 @@
       display: block; // Cada enlace en su propia línea
     }
   }
+
+
 }
 
 

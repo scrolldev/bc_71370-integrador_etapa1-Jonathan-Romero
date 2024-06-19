@@ -40,7 +40,7 @@ h1 {
   label {
     display: block;
     margin-bottom: 5px;
-    color: map-get($map: $colores, $key: "secondary-color");
+    color: map-get($map: $colores, $key: "primary-color");
   }
 
   input, textarea {
