@@ -1,9 +1,8 @@
 Nombre: Jonathan Walter Romero
 
-Repositorio de GitHub:
+Repositorio de GitHub: https://github.com/scrolldev/bc_71370-integrador_etapa1-Jonathan-Romero
 
-Link Netlify:
-
+Link Netlify: https://spontaneous-gumdrop-5ddf4c.netlify.app/
 ---------------------------------------------
 
 /* Estructura 7 en 1.
